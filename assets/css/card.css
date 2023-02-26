@@ -54,7 +54,7 @@ main .container {
 .info-wrapper {
   display: flex;
   flex-direction: column;
-  height: 200px;
+  height: 260px;
   justify-content: space-between;
 }
 
