@@ -58,18 +58,16 @@
     gap: 0;
   }
 
-  /* blog page css query */
-  .blog-container {
+  article .container {
     width: 90%;
     padding-top: 50px;
   }
 
-  .blog-content {
-    flex-direction: column;
-    gap: 30px;
+  .article-img {
+    height: 200px;
   }
 
-  .post-title {
+  .article-title {
     font-size: 30px;
   }
 
@@ -97,22 +95,6 @@
 
   .link-reference {
     font-size: 16px;
-  }
-
-  .writer-profile {
-    flex-direction: column;
-  }
-
-  .post-socmed {
-    width: 100%;
-  }
-
-  .share-icon {
-    flex-direction: row;
-  }
-
-  .post-socmed {
-    margin-top: 20px;
   }
 }
 
