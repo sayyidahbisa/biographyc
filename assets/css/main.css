@@ -1,0 +1,12 @@
+@import "./reset.css";
+@import url("https://fonts.googleapis.com/css2?family=Norican&family=PT+Serif&family=Playfair+Display:wght@400;500;600;700&display=swap");
+@import "./header.css";
+@import "./card.css";
+@import "./blog.css";
+@import "./footer.css";
+@import "./media-query.css";
+
+body {
+  font-family: "PT Serif", serif;
+  color: #3a3a3a;
+}
