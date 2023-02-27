@@ -48,6 +48,15 @@ article .container {
   margin-bottom: 20px;
 }
 
+.article-reference {
+  word-wrap: break-word;
+}
+
+.link-reference {
+  color: #d03c3c;
+  word-wrap: break-word;
+}
+
 .profile {
   margin-top: 60px;
   display: flex;
@@ -59,11 +68,10 @@ article .container {
 }
 
 .blogger-img {
-  border-radius: 50%;
   overflow: hidden;
-  width: 100px;
+  border-radius: 50%;
   height: 100px;
-  flex-shrink: 0;
+  width: 100px;
 }
 
 .blogger-img img {
@@ -76,7 +84,6 @@ article .container {
 .blogger-info {
   display: flex;
   flex-direction: column;
-  flex-grow: 1;
 }
 
 .blogger-info h1 {
@@ -87,7 +94,7 @@ article .container {
 
 .blogger-info p {
   font-size: 16px;
-  line-height: 1.4;
+  line-height: 1.6;
   margin-top: 6px;
 }
 
@@ -104,23 +111,4 @@ article .container {
 
 .blogger-socmed a:hover {
   color: #3a3a3a;
-}
-
-.blogger-socmed img {
-  width: 28px;
-}
-
-.post-tags {
-  margin-top: 34px;
-  display: flex;
-  gap: 10px;
-}
-
-.article-reference {
-  word-wrap: break-word;
-}
-
-.link-reference {
-  color: #d03c3c;
-  word-wrap: break-word;
 }
